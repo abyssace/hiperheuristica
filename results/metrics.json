@@ -1,0 +1,77 @@
+{
+  "n_train": 351,
+  "n_test": 149,
+  "baseline_class": "2opt_hill_climbing",
+  "baseline_accuracy_test": 0.5033557046979866,
+  "model": "KNN",
+  "feature_set": "provistas",
+  "features": [
+    "n",
+    "mean_pairwise_dist",
+    "std_coords",
+    "mean_centroid_dist",
+    "mean_nn_dist",
+    "dist_uniform",
+    "dist_clustered",
+    "dist_border"
+  ],
+  "hyperparameters": {
+    "knn__n_neighbors": 31,
+    "knn__weights": "uniform"
+  },
+  "cv_accuracy": 0.6724748490945673,
+  "test_accuracy": 0.5570469798657718,
+  "test_balanced_accuracy": 0.4248095357172626,
+  "test_recall": {
+    "2opt_hill_climbing": 0.8933333333333333,
+    "sa_2opt": 0.3488372093023256,
+    "mst_2opt": 0.03225806451612903
+  },
+  "test_predicted_counts": {
+    "2opt_hill_climbing": 119,
+    "sa_2opt": 28,
+    "mst_2opt": 2
+  },
+  "accuracy_ci95_halfwidth": 0.07976046600429014,
+  "regret": {
+    "Hiper-heurística (modelo)": {
+      "regret_mean": 0.035715220534213825,
+      "regret_median": 0.0,
+      "regret_max": 0.47448274218159714,
+      "regret_rel_mean_pct": 0.9193532920526839,
+      "zero_regret_pct": 58.38926174496645
+    },
+    "Siempre 2-opt HC": {
+      "regret_mean": 0.04277871681374734,
+      "regret_median": 0.0,
+      "regret_max": 0.47448274218159714,
+      "regret_rel_mean_pct": 1.3257920720316079,
+      "zero_regret_pct": 50.33557046979866
+    },
+    "Siempre SA + 2-opt": {
+      "regret_mean": 0.13171280314018857,
+      "regret_median": 0.0,
+      "regret_max": 2.5108852878970644,
+      "regret_rel_mean_pct": 2.564219281238172,
+      "zero_regret_pct": 64.42953020134227
+    },
+    "Siempre MST + 2-opt": {
+      "regret_mean": 0.052820267957246106,
+      "regret_median": 0.0,
+      "regret_max": 1.5613620660851275,
+      "regret_rel_mean_pct": 1.3199478291660813,
+      "zero_regret_pct": 63.08724832214765
+    }
+  },
+  "regret_random_choice_mean": 0.07657834727903598,
+  "complementary_tree": {
+    "feature_set": "provistas+calculadas",
+    "hyperparameters": {
+      "class_weight": null,
+      "criterion": "entropy",
+      "max_depth": 5,
+      "min_samples_leaf": 20
+    }
+  },
+  "tied_best_pct_all": 45.2
+}

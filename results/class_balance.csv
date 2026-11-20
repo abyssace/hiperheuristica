@@ -1,0 +1,4 @@
+best_algorithm,total,total_pct,train,test
+2opt_hill_climbing,299,59.8,224,75
+sa_2opt,118,23.599999999999998,75,43
+mst_2opt,83,16.6,52,31

@@ -1,0 +1,7 @@
+modelo,caracteristicas,cv_accuracy,cv_std,mejores_hiperparametros
+KNN,provistas,0.6724748490945673,0.027037462448055983,"{""knn__n_neighbors"": 31, ""knn__weights"": ""uniform""}"
+Random Forest,provistas,0.663943661971831,0.027649243144328164,"{""class_weight"": null, ""max_depth"": 5, ""min_samples_leaf"": 5}"
+Árbol de decisión,provistas+calculadas,0.6638229376257545,0.021209343242654808,"{""class_weight"": null, ""criterion"": ""entropy"", ""max_depth"": 5, ""min_samples_leaf"": 20}"
+Random Forest,provistas+calculadas,0.6611267605633802,0.033570968812442384,"{""class_weight"": null, ""max_depth"": 5, ""min_samples_leaf"": 10}"
+Árbol de decisión,provistas,0.6553722334004024,0.029127526686439396,"{""class_weight"": null, ""criterion"": ""gini"", ""max_depth"": 3, ""min_samples_leaf"": 20}"
+KNN,provistas+calculadas,0.6525150905432595,0.02951182851225665,"{""knn__n_neighbors"": 31, ""knn__weights"": ""distance""}"

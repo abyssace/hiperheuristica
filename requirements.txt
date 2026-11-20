@@ -1,0 +1,7 @@
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.8
+# Solo para generar el PDF del reporte (src.build_report):
+fpdf2>=2.8
+markdown>=3.6

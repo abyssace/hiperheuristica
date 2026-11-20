@@ -1,0 +1,4 @@
+,pred_2opt_hill_climbing,pred_sa_2opt,pred_mst_2opt
+real_2opt_hill_climbing,67,7,1
+real_sa_2opt,28,15,0
+real_mst_2opt,24,6,1

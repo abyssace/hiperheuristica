@@ -1,0 +1,12 @@
+feature,importance
+n,0.4135634680947897
+bbox_area,0.20247639914055865
+mst_length,0.157992037629233
+dist_border,0.10326699338976333
+mean_nn_dist,0.062457301664216563
+nn_dist_cv,0.03931462952936294
+mean_pairwise_dist,0.020929170552075757
+std_coords,0.0
+mean_centroid_dist,0.0
+dist_uniform,0.0
+dist_clustered,0.0
